@@ -1,0 +1,69 @@
+body {
+  margin: auto;
+}
+/*****************************Styling of the topmost image********************/
+.sereneView {
+  width: 100%;
+  height: auto;
+}
+
+/**************************** Abu Hotel description*************************/
+.description {
+  width: 70%;
+  margin: 3em auto 3em;
+  font-family: "Times New Roman", monospace;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+/************* Styling of div containers for Hotel highlight features **********/
+.firstContainer,
+.secondContainer,
+.thirdContainer,
+.fourthContainer {
+  margin-top: 3em;
+  margin-left: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.swimmingPoolText,
+.gymText,
+.restaurantText,
+.barText {
+  width: 25em;
+  margin-left: 4em;
+}
+
+.swimmingPoolImg,
+.gymImg,
+.restaurantImg,
+.barImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+/************* Styling of texts for Hotel highlight features *********/
+.featureDescription {
+  font-family: "Times New Roman", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122.2%;
+  color: #000000;
+}
+
+.featureSubhead {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 122.2%;
+  color: #000000;
+}
